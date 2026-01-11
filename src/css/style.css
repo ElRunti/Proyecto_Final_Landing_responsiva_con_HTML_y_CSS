@@ -53,3 +53,33 @@ body{
 .navbar button{
   display: none;
 }
+.section#inicio{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  flex-wrap: nowrap;
+}
+
+.hero-text span{
+    color: #7c6e6e;
+    display: flex;
+    margin-left: 35px;
+}
+.hero-text h1{
+  margin-left: 15px;
+  font-size: 3rem;
+}
+.hero-text p{
+    color: #ffffff;
+    margin-left: 35px;
+    font-size: 18px;
+    line-height: 1.6;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    text-align: justify;
+}
