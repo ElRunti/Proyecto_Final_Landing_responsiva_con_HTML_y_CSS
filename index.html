@@ -98,7 +98,20 @@
                 <li><span>💻</span>GitHub: <a href="https://github.com/ElRunti">ElRunti</a></li>
             </ul>
         </section>
-        <section id="contacto"></section>
+        <section id="contacto">
+            <form action="#" method="post">
+                <fieldset>
+                    <legend>Ficha de contacto</legend>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" maxlength="40" required><br>
+                    <label for="email">Correo electronico</label><br>
+                    <input type="email" id="email" name="email" maxlength="40" required><br>
+                    <label for="mensaje">Mensaje</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" maxlength="200" required></textarea><br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+        </section>
     </main>
     <footer>
     </footer>
