@@ -1,0 +1,13 @@
+*{
+  font-family: 'PT Serif', Tahoma, Geneva, Verdana, sans-serif;
+  box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-family: 'Playfair Display', Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  background-color: #353535 ;
+  color: #ffffff;
+}
