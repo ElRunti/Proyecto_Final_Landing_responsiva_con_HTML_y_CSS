@@ -355,5 +355,16 @@ body{
 .cookie-footer button:hover {
   background-color: #000000;
 }
+@media screen and (max-width: 1024px) { 
 
+}
+@media screen and (max-width: 765px)  {
+
+}
+@media screen and (max-width: 480px)  {
+   
+  }
+@media screen and (max-width: 320px)  {
+
+  }
 
