@@ -359,7 +359,41 @@ body{
 
 }
 @media screen and (max-width: 765px)  {
+  .navbar .nav-toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  .nav-toggle span { 
+    width: 25px; 
+    height: 3px; 
+    background: #6f6e6e; 
+    border-radius: 2px; 
+  }
 
+  .nav-menu {
+    display: none;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    background-color: #1a1a1a;
+    flex-direction: column;
+    width: 200px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+  }
+
+  .nav-menu.show {
+    display: flex;
+  }
+  .navbar .button {
+    display: block;
+    color: #ffffff;
+  }
 }
 @media screen and (max-width: 480px)  {
    
