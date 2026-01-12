@@ -223,3 +223,76 @@ body{
 #redes-sociales a:hover{
   color: #0a0803;
 }
+#contacto{
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+#contacto form{
+  max-width: 700px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+}
+#contacto label{
+  flex: 1 1 250px;
+  text-align: left;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+#contacto input{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #f9f9f9;
+  padding: 12px 5px;
+  color: #fff;
+  font-size: 1rem;
+  flex: 1 1 250px;
+  width: 100%;
+}
+
+#contacto textarea{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid #f9f9f9;
+  padding: 12px 5px;
+  color: #fff;
+  font-size: 1rem;
+  flex: 1 1 250px;
+}
+
+#contacto form button{
+  padding: 10px 20px;
+  background-color: #7c6e6e;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#contacto form button:hover{
+  background-color: #0a0803;
+}
+#contacto fieldset {
+  border: 2px solid #ccc;
+  border-radius: 12px;
+  padding: 25px;
+  margin-bottom: 20px;
+  box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+#contacto legend {
+  font-weight: bold;
+  padding: 5px 15px;
+  background-color: #4a4a4a;
+  color: #fff;
+  border-radius: 5px;
+}
