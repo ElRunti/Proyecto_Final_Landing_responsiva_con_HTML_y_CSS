@@ -146,3 +146,51 @@ body{
   background-color: #0a0803;
   transition: 0.3s;
 }
+#acerca-de-mi{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+#acerca-de-mi img{
+  width: 300px;
+  height: auto;
+  border-radius: 15px;
+  margin-left: 15px;
+  display: flex;
+  flex-wrap: nowrap;
+}
+#acerca-de-mi .acerca-texto{
+  flex: 1;
+  padding: 20px;
+
+}
+#acerca-de-mi .acerca-texto h2{
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+#acerca-de-mi .acerca-texto p{
+  line-height: 1.6;
+  text-align: justify;
+  flex-wrap: nowrap;
+}
+
+#acerca-de-mi .trayectoria{
+  margin-top: 20px;
+  flex: 1;
+}
+#acerca-de-mi .trayectoria ul{
+  list-style: none;
+  padding: 0;
+  line-height: 1.6;
+}
+#acerca-de-mi .trayectoria ul li{
+  margin-bottom: 10px;
+  background-color: #444;
+  flex-wrap: nowrap;
+  border-radius: 8px;
+  font-weight: bold;
+}
+#acerca-de-mi .trayectoria ul li:hover{
+  background-color: #0a0803;
+  transition: 0.3s;
+}
