@@ -394,7 +394,24 @@ body{
     display: block;
     color: #ffffff;
   }
+  #acerca-de-mi{
+    flex-direction: column;
+    align-items: center;
+  }
+  #acerca-de-mi img{
+    margin-bottom: 20px;
+    margin-left: 0;
+  }
+  #acerca-de-mi .acerca-texto{
+    padding: 0 10px;
+    width: 100%;
+  }
+  #acerca-de-mi .trayectoria{
+    width: 100%;
+    margin-top: 20px;
+  }
 }
+
 @media screen and (max-width: 480px)  {
    
   }
