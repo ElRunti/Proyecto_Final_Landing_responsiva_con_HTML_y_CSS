@@ -416,7 +416,41 @@ body{
 }
 
 @media screen and (max-width: 480px)  {
-   
+  *{
+    font-size: 1.2rem;
+  }
+  .hero-text p{
+    font-size: 1.2rem;
+  }
+  .hero-text span{
+    font-size: 2.5rem;
+  }
+  #redes-sociales span{
+    display: none;
+  }
+  }
+  #redes-sociales ul{
+    gap: 45px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  #redes-sociales a{
+    margin: 0 5px;
+
+  }
+  #redes-sociales a:hover{
+    color: #64615a;
+  }
+  #redes-sociales li{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    font-style: bold;
+    
   }
 @media screen and (max-width: 320px)  {
 
