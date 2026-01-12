@@ -358,9 +358,7 @@ body{
 .cookie-footer button:hover {
   background-color: #000000;
 }
-@media screen and (max-width: 1024px) { 
 
-}
 @media screen and (max-width: 765px)  {
   .navbar .nav-toggle {
     display: flex;
@@ -452,7 +450,5 @@ body{
     font-style: bold;
     
   }
-@media screen and (max-width: 320px)  {
 
-  }
 
